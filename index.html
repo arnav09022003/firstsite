@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Doctype html tag tells browser that we are working with html 5-->
+<html>
+  <!-- head tag tells browser that ahead is html code-->
+  <head>
+    <!-- this is a character set i.e. it contains all the legal symbols for the language-->
+    <meta charset="utf-8" />
+    <!-- title tag to write title-->
+    <title>Arnav's First Site</title>
+  </head>
+  <body>
+    <table cellspacing="20">
+      <tr>
+        <td>
+          <!--img tag is used to add an image src is the url to the photo and alt is the text which will be displayed in case image is not fetched-->
+          <!--if u want to use a local image either keep it in same  folder as site and add its name or give path to folder along with name -->
+          <img src="Screenshot (235)-modified.png" alt="Arnav's Photo" />
+        </td>
+        <td>
+          <!-- h1 tag to write heading from 1 to 6-->
+          <h1>Arnav Agarwal</h1>
+          <!-- p tag to write paragraph-->
+          <!-- em tag to make the text in italics,emphasise on text to be precise-->
+          <!-- i tag is used to make the text italics too-->
+          <!-- its better to use em tag instead of i tag-->
+          <!-- a(anchor) tag is used to make a text as hyper link hreaf is the url to the site-->
+          <p>
+            I am a student of
+            <em><a href="https://www.psit.ac.in/">PSIT</a></em> <i>PSIT</i>.
+          </p>
+          <!-- we use &nbsp to add space-->
+          <!-- we us both strong and b tags to make text bold bt strong is recommended-->
+          <p>Its in &nbsp;<strong>Kanpur</strong> <b>Kanpur</b></p>
+          <p>I am an aspiring SDE and want to work in an tech giant later.</p>
+        </td>
+      </tr>
+    </table>
+
+    <hr noshade />
+    <h3>Education:</h3>
+    <!-- ul is used to make unordered bullet points-->
+    <ul>
+      <!-- list elements-->
+      <li>Durga prasad vidya niketan-->1-4</li>
+      <li>U.P. Kirana seva samiti vidyalaya-->5-10</li>
+      <li>P.R.D. Inter college-->11-12</li>
+    </ul>
+    <hr size="2" noshade="" />
+    <!-- table is used to add a table-->
+    <h3>About:</h3>
+    <table cellspacing="10">
+      <!-- thead is heading for each coloumn-->
+      <thead>
+        <th>Date</th>
+        <th>Work</th>
+      </thead>
+      <!-- tbody is the actual content of table-->
+      <tbody>
+        <!-- tr is table row tag-->
+        <tr>
+          <!-- td is table data or cell for tables-->
+          <td>2003-2017</td>
+          <td>schooling</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>Cricket</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--ahead are two ways of creating table within tables-->
+    <!-- <h3>Skills:</h3>
+    <table border="1">
+      <tbody> -->
+    <!--This was my way of creating a table where each cell was an table within itself-->
+    <!-- <tr>
+          <td>c++ &nbsp;&nbsp;&nbsp;&nbsp;★★☆☆☆ <br />python ★☆☆☆☆</td>
+          <td>c++ &nbsp;&nbsp;&nbsp;&nbsp;★★☆☆☆ <br />python ★☆☆☆☆</td>
+        </tr> -->
+    <!--This was instructors way of creating a table within a table-->
+    <!-- <tr>
+          <td>
+            <table>
+              <tr> <td>c++ <td>★★☆☆☆</td></tr>
+              <tr> <td>python</td><td>★☆☆☆☆</td> </tr>
+            </table>
+          </td>
+          <td>
+            <table>
+              <tr> <td>c++ <td>★★☆☆☆</td></tr>
+              <tr> <td>python</td><td>★☆☆☆☆</td> </tr>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table> -->
+    <hr noshade="">
+    <h3>Skills:</h3>
+    <table cellspacing="10">
+      <tr><td>c++</td><td>★★☆☆☆</td> </tr>
+      <tr><td>python</td><td>★☆☆☆☆</td> </tr>
+      <tr><td>C</td><td>★☆☆☆☆</td></tr>
+    </table>
+    <h3>Hobbies:</h3>
+    <a href="hobbies.html">Hobbies</a>
+    <p>
+      To connect with me:
+      <a href="connection.html">Contact Me</a>
+    </p>
+  </body>
+</html>
